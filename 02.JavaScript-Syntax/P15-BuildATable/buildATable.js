@@ -1,6 +1,6 @@
 function printTableOfNumbers(input){
-	var start = input[0];
-	var end = input[1];
+	var start = parseInt(input[0]);
+	var end = parseInt(input[1]);
 	console.log('<table>');
 	console.log('<tr><th>Num</th><th>Square</th><th>Fib</th></tr>');
 	
