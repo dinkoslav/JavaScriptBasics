@@ -15,9 +15,7 @@ function biggestTableRow(arr){
         }
         if(sum>biggestSum){
             biggestSum = sum;
-            for(var num in biggestTemp){
-                biggest = sum + " = " + biggestTemp.join(" + ");
-            }
+            biggest = sum + " = " + biggestTemp.join(" + ");
         }
     }
     if(count != 0){
